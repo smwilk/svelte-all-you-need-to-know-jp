@@ -30,7 +30,7 @@ function handleSubmit() {
     <div>
       <input bind:value={firstName} type="text" placeholder="名" required>
     </div>
-    <button on:click={handleSubmit}>タスク管理を始める</button>
+    <button type="submit">タスク管理を始める</button>
   </form>
 {/if}
 </main>
