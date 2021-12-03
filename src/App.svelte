@@ -17,9 +17,9 @@ function handleSubmit() {
 
 <main>
 {#if nameEntered}
-	<h1>タスクリストアプリケーションへようこそ、{fullName}さん!</h1>
-	<ToDoInputForm userName={fullName} />
-	<ToDoList />
+  <h1>タスクリストアプリケーションへようこそ、{fullName}さん!</h1>
+  <ToDoInputForm userName={fullName} />
+  <ToDoList />
 {:else}
   <h1>タスクリストアプリケーションへようこそ！</h1>
   <h3>名前を入力してください。</h3>

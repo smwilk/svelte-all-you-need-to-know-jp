@@ -2,7 +2,7 @@
   import { toDoItems } from "./store.js"
   import { fade, scale } from "svelte/transition"
 
-function removeFromList(i) {
+  function removeFromList(i) {
     $toDoItems.splice(i, 1)
     $toDoItems = $toDoItems
   }
